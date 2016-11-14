@@ -57,7 +57,7 @@ app.controller('MyController', function($scope, $timeout) {
             if($scope.countDown === 0){
               alert("You lose!");
             }
-          }, 1000);
+          }, 500);
 
           $scope.state = "first";
           console.log($scope.state);
