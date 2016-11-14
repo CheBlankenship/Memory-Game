@@ -12,28 +12,16 @@ app.controller('MyController', function($scope, $timeout) {
   $scope.secondCard;
   $scope.cards = [
     [
-      new Card("01"),
-      new Card("02"),
-      new Card("03"),
-      new Card("04")
+      new Card("1"),
+      new Card("2"),
+      new Card("3"),
+      new Card("4")
     ],
     [
-      new Card("04"),
-      new Card("01"),
-      new Card("02"),
-      new Card("03")
-    ],
-    [
-      new Card("04"),
-      new Card("01"),
-      new Card("02"),
-      new Card("03")
-    ],
-    [
-      new Card("04"),
-      new Card("01"),
-      new Card("02"),
-      new Card("03")
+      new Card("1"),
+      new Card("2"),
+      new Card("3"),
+      new Card("4")
     ]
   ];
 
